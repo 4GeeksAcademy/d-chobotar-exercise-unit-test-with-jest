@@ -1,4 +1,3 @@
-const { default: expect } = require('expect');
 const { convertDollarToYen, convertEuroToDollar, convertYenToPound } = require('./app.js');
 
 describe('convertEuroToDollar happy path input validation', () => {
